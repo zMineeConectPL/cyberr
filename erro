@@ -1,0 +1,33 @@
+[19:08:33 ERROR]: Could not load 'plugins\MineeSistemas.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: com/comphenix/protocol/events/PacketListener
+        at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:135) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+        at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:329) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+        at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:251) [spigot.jar:git-Spigot-db6de12-18fbb24]
+        at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:292) [spigot.jar:git-Spigot-db6de12-18fbb24]
+        at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:198) [spigot.jar:git-Spigot-db6de12-18fbb24]
+        at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525) [spigot.jar:git-Spigot-db6de12-18fbb24]
+        at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
+Caused by: java.lang.NoClassDefFoundError: com/comphenix/protocol/events/PacketListener
+        at java.lang.Class.forName0(Native Method) ~[?:1.8.0_201]
+        at java.lang.Class.forName(Unknown Source) ~[?:1.8.0_201]
+        at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:64) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+        at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:131) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+        ... 6 more
+Caused by: java.lang.ClassNotFoundException: com.comphenix.protocol.events.PacketListener
+        at java.net.URLClassLoader.findClass(Unknown Source) ~[?:1.8.0_201]
+        at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:101) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+        at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:86) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+        at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_201]
+        at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_201]
+        at java.lang.Class.forName0(Native Method) ~[?:1.8.0_201]
+        at java.lang.Class.forName(Unknown Source) ~[?:1.8.0_201]
+        at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:64) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+        at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:131) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+        ... 6 more
+[19:08:33 ERROR]: Could not load 'plugins\HeroBolsa-1.0.0.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: HeroVender
+        at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:219) [spigot.jar:git-Spigot-db6de12-18fbb24]
+        at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:292) [spigot.jar:git-Spigot-db6de12-18fbb24]
+        at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:198) [spigot.jar:git-Spigot-db6de12-18fbb24]
+        at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525) [spigot.jar:git-Spigot-db6de12-18fbb24]
+        at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
